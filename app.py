@@ -7,7 +7,7 @@ import numpy as np
 with open("model.pkl", "rb") as file:
     model = pickle.load(file)
 
-st.title("تشخيص سكر الحمل")
+st.title("Diagnosis of gestational diabetes")
 
 preg = st.number_input("عدد مرات الحمل", 0)
 glucose = st.number_input("مستوى الجلوكوز", 0)
